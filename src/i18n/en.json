@@ -1,0 +1,12 @@
+{
+  "nav": {},
+  "submitForm": {
+    "title": "Submit your data",
+    "country": "Country",
+    "university": "University",
+    "degree": "Degree",
+    "program": "Program",
+    "gpaScale": "GPA Scale",
+    "gpa": "GPA"
+  }
+}
