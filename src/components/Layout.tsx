@@ -7,19 +7,14 @@ export default function Layout() {
   return (
     <Box
       sx={{
+        minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
-        minHeight: "100vh",
+        backgroundColor: "background.default",
       }}
     >
       <Navbar />
-      <Box
-        component="main"
-        sx={{
-          flexGrow: 1,
-          pt: 8, // Account for fixed navbar (Toolbar height is typically 64px)
-        }}
-      >
+      <Box component="main" sx={{ flex: 1, px: 2, py: 4 }}>
         <Outlet />
       </Box>
       <Footer />
