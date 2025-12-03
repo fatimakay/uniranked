@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <AppBar position="static">
-      <Toolbar>
+      <Toolbar sx={{ justifyContent: "space-around" }}>
         <Typography
           variant="h6"
           component={Link}
@@ -30,8 +30,8 @@ export default function Navbar() {
             Home
           </Button>
           <Button
-            color="inherit"
             component={Link}
+            sx={{ backgroundColor: "accent.main", color: "#000000" }}
             to="/submit"
             variant={location.pathname === "/submit" ? "outlined" : "text"}
           >
