@@ -52,6 +52,15 @@ const theme = createTheme({
         },
       },
     },
+    MuiTextField: {
+      styleOverrides: {
+        root: {
+          "& .MuiInputLabel-asterisk": {
+            color: "#d32f2f", // Red color for required asterisk
+          },
+        },
+      },
+    },
   },
 });
 
