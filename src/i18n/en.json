@@ -2,12 +2,13 @@
   "nav": {},
   "submitForm": {
     "title": "Submit your data",
-    "applicantInfo": "Application Information",
+    "applicantInfo": "Applicant Information",
     "country": "Country",
     "educationLevel": "Education Level",
     "university": "University",
     "degree": "Degree",
     "program": "Program",
+    "year": "Year",
     "gpaScale": "GPA Scale",
     "gpa": "GPA",
     "universityApplications": "University Applications",
@@ -21,6 +22,7 @@
     "phd": "PhD",
     "grade": "Grade",
     "test": "Additional tests",
+    "other": "Other, please specify",
     "score": "Score",
     "applicationDate": "Application Date",
     "decisionDate": "Decision Date",
@@ -30,6 +32,10 @@
     "waitlisted": "Waitlisted",
     "scholarship": "Scholarship",
     "yes": "Yes",
-    "no": "No"
+    "no": "No",
+    "required": "Mandatory fields",
+    "chooseOption": "Choose an option",
+    "gpaError": "GPA must be greater than 1",
+    "yearError": "Invalid year value"
   }
 }
