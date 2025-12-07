@@ -6,7 +6,6 @@ export const mockSubmission: SubmissionFormData = {
   grade: null,
 
   university: "MIT",
-  degree: "Bachelors",
   currentProgram: "Computer Science",
   gpa: 3.82,
   gpaScale: "4.0",

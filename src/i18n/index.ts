@@ -6,10 +6,10 @@ i18n.use(initReactI18next).init({
   resources: {
     en: { translation: en },
   },
-  lng: "en", // default language
+  lng: "en",
   fallbackLng: "en",
   interpolation: {
-    escapeValue: false, // react already escapes
+    escapeValue: false,
   },
 });
 
