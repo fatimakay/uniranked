@@ -6,7 +6,7 @@ export interface ApplicationEntry {
   id: string;
   country: string;
   university: string;
-  degreeLevel: DegreeLevel;
+  degree: DegreeLevel;
   program: string;
   applicationYear: number;
   status: ApplicationStatus;

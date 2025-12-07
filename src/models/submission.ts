@@ -9,9 +9,8 @@ export interface TestScore {
 }
 
 export interface SubmissionFormData {
-  // Required
   educationLevel: EducationLevel;
-  country: string; // Country of origin
+  country: string;
 
   // Required for Secondary users
   grade?: number;
@@ -21,7 +20,7 @@ export interface SubmissionFormData {
   degree?: EducationLevel; // Current/previous degree level
   currentProgram?: string; // Current/previous program/major
   gpa?: number;
-  gpaScale?: number;
+  gpaScale?: string;
 
   // Optional
   testScore?: TestScore;
